@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Filtro 1</title>
-    <link rel="stylesheet" href="filtro1.css">
+    <link rel="stylesheet" href="style.css">
     <script src="filtro.js"></script>
   </head>
   <body onload="main();">
@@ -11,5 +11,18 @@
     <img src="black-hole.jpg" id="imagesrc">
     <p>Imagen manipulada</p>
     <canvas id="display"></canvas>
+    <br>
+    <button type="button" id="grises">GRISES</button>
+    <br>
+    <p> ROJO: </p>
+    <input type="range" id="deslizador_rojo" min="0" max="255" value="255"/>
+    <p id="rojo">255</p>
+    <p> VERDE: </p>
+    <input type="range" id="deslizador_verde" min="0" max="255" value="255"/>
+    <p id="verde">255</p>
+    <p> AZUL: </p>
+    <input type="range" id="deslizador_azul" min="0" max="255" value="255"/>
+    <p id="azul">255</p>
+
   </body>
 </html>
